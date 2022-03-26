@@ -1,0 +1,92 @@
+body {
+	margin: 0;
+	font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",
+		"Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
+		sans-serif;
+	-webkit-font-smoothing: antialiased;
+	-moz-osx-font-smoothing: grayscale;
+}
+
+code {
+	font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
+		monospace;
+}
+
+.tox .tox-toolbar-overlord {
+	background-color: #2f3742 !important;
+	padding-top: 8px;
+}
+
+.tox .tox-toolbar {
+	background-color: transparent !important;
+	background: none !important;
+}
+
+.tox .tox-toolbar:last-child {
+	position: absolute;
+	bottom: 0px;
+}
+
+.tox .tox-tbtn {
+	height: 24px;
+}
+
+.tox .tox-tbtn svg {
+	fill: #f1f1f1 !important;
+}
+
+.tox .tox-tbtn:hover {
+	background-color: transparent !important;
+}
+
+.tox .tox-toolbar__group {
+	border-color: #545f6e !important;
+}
+
+.tox .tox-statusbar {
+	display: none !important;
+}
+
+img {
+	max-width: 100%;
+	height: auto !important;
+}
+
+#chat-window > .ant-card-body {
+	height: calc(70vh - 60px);
+	overflow-y: auto;
+	overflow-x: hidden;
+}
+
+#chat-window * {
+	max-width: 100%;
+}
+
+.tox .tox-sidebar-wrap {
+	flex-grow: 0;
+	flex-basis: 70px !important;
+}
+
+.tox-tinymce {
+	background-color: #2f3742 !important;
+	border: 0 !important;
+}
+
+blockquote {
+	background: #f9f9f9;
+	border-left: 10px solid #ccc;
+	margin: 1.5em 10px;
+	padding: 0.5em 10px;
+	quotes: "\201C""\201D""\2018""\2019";
+}
+blockquote:before {
+	color: #ccc;
+	content: open-quote;
+	font-size: 4em;
+	line-height: 0.1em;
+	margin-right: 0.25em;
+	vertical-align: -0.4em;
+}
+blockquote p {
+	display: inline;
+}

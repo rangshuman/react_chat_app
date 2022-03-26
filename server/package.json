@@ -1,0 +1,19 @@
+{
+	"name": "socket-io-backend",
+	"version": "1.0.0",
+	"description": "socket.io backend for the chat app",
+	"main": "index.js",
+	"type": "module",
+	"scripts": {
+		"start": "nodemon index.js"
+	},
+	"author": "Angshuman Roy",
+	"license": "MIT",
+	"dependencies": {
+		"socket.io": "4.4.1"
+	},
+	"devDependencies": {
+		"dotenv": "16.0.0",
+		"nodemon": "2.0.15"
+	}
+}
